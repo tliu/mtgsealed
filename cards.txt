@@ -1,0 +1,249 @@
+Abzan Battle Priest
+Abzan Falconer
+Ainok Bond-Kin
+Alabaster Kirin
+Brave the Sands
+Dazzling Ramparts
+Defiant Strike
+End Hostilities
+Erase
+Feat of Resistance
+Firehoof Cavalry
+Herald of Anafenza
+High Sentinels of Arashin
+Jeskai Student
+Kill Shot
+Mardu Hateblade
+Mardu Hordechief
+Master of Pearls
+Rush of Battle
+Sage-Eye Harrier
+Salt Road Patrol
+Seeker of the Way
+Siegecraft
+Smite the Monstrous
+Suspension Field
+Take Up Arms
+Timely Hordemate
+Venerable Lammasu
+War Behemoth
+Watcher of the Roost
+Wingmate Roc
+Blinding Spray
+Cancel
+Clever Impersonator
+Crippling Chill
+Dig Through Time
+Disdainful Stroke
+Dragon's Eye Savants
+Embodiment of Spring
+Force Away
+Glacial Stalker
+Icy Blast
+Jeskai Elder
+Jeskai Windscout
+Kheru Spellsnatcher
+Mistfire Weaver
+Monastery Flock
+Mystic of the Hidden Way
+Pearl Lake Ancient
+Quiet Contemplation
+Riverwheel Aerialists
+Scaldkin
+Scion of Glaciers
+Set Adrift
+Singing Bell Strike
+Stubborn Denial
+Taigam's Scheming
+Thousand Winds
+Treasure Cruise
+Waterwhirl
+Weave Fate
+Wetland Sambar
+Whirlwind Adept
+Bellowing Saddlebrute
+Bitter Revelation
+Bloodsoaked Champion
+Dead Drop
+Debilitating Injury
+Despise
+Disowned Ancestor
+Dutiful Return
+Empty the Pits
+Grim Haruspex
+Gurmag Swiftwing
+Kheru Bloodsucker
+Kheru Dreadmaw
+Krumar Bond-Kin
+Mardu Skullhunter
+Mer-Ek Nightblade
+Molting Snakeskin
+Murderous Cut
+Necropolis Fiend
+Raiders' Spoils
+Rakshasa's Secret
+Retribution of the Ancients
+Rite of the Serpent
+Rotting Mastodon
+Ruthless Ripper
+Shambling Attendants
+Sidisi's Pet
+Sultai Scavenger
+Swarm of Bloodflies
+Throttle
+Unyielding Krumar
+Act of Treason
+Ainok Tracker
+Arc Lightning
+Arrow Storm
+Ashcloud Phoenix
+Barrage of Boulders
+Bloodfire Expert
+Bloodfire Mentor
+Bring Low
+Burn Away
+Canyon Lurkers
+Crater's Claws
+Dragon Grip
+Dragon-Style Twins
+Goblinslide
+Horde Ambusher
+Hordeling Outburst
+Howl of the Horde
+Jeering Instigator
+Leaping Master
+Mardu Blazebringer
+Mardu Heart-Piercer
+Mardu Warshrieker
+Monastery Swiftspear
+Sarkhan, the Dragonspeaker
+Shatter
+Summit Prowler
+Swift Kick
+Tormenting Voice
+Trumpet Blast
+Valley Dasher
+War-Name Aspirant
+Alpine Grizzly
+Archers' Parapet
+Awaken the Bear
+Become Immense
+Dragonscale Boon
+Feed the Clan
+Hardened Scales
+Heir of the Wilds
+Highland Game
+Hooded Hydra
+Hooting Mandrills
+Incremental Growth
+Kin-Tree Warden
+Longshot Squad
+Meandering Towershell
+Naturalize
+Pine Walker
+Rattleclaw Mystic
+Roar of Challenge
+Sagu Archer
+Savage Punch
+Scout the Borders
+See the Unwritten
+Seek the Horizon
+Smoke Teller
+Sultai Flayer
+Temur Charger
+Trail of Mystery
+Tusked Colossodon
+Tuskguard Captain
+Windstorm
+Woolly Loxodon
+Abomination of Gudul
+Abzan Ascendancy
+Abzan Charm
+Abzan Guide
+Anafenza, the Foremost
+Ankle Shanker
+Armament Corps
+Avalanche Tusker
+Bear's Companion
+Butcher of the Horde
+Chief of the Edge
+Chief of the Scale
+Crackling Doom
+Death Frenzy
+Deflecting Palm
+Duneblast
+Efreet Weaponmaster
+Flying Crane Technique
+Highspire Mantis
+Icefeather Aven
+Ivorytusk Fortress
+Jeskai Ascendancy
+Jeskai Charm
+Kheru Lich Lord
+Kin-Tree Invocation
+Mantis Rider
+Mardu Ascendancy
+Mardu Charm
+Mardu Roughrider
+Master the Way
+Mindswipe
+Narset, Enlightened Master
+Ponyback Brigade
+Rakshasa Deathdealer
+Rakshasa Vizier
+Ride Down
+Sage of the Inward Eye
+Sagu Mauler
+Savage Knuckleblade
+Secret Plans
+Sidisi, Brood Tyrant
+Siege Rhino
+Snowhorn Rider
+Sorin, Solemn Visitor
+Sultai Ascendancy
+Sultai Charm
+Sultai Soothsayer
+Surrak Dragonclaw
+Temur Ascendancy
+Temur Charm
+Trap Essence
+Utter End
+Villainous Wealth
+Warden of the Eye
+Winterflame
+Zurgo Helmsmasher
+Abzan Banner
+Altar of the Brood
+Briber's Purse
+Cranial Archive
+Dragon Throne of Tarkir
+Ghostfire Blade
+Heart-Piercer Bow
+Jeskai Banner
+Lens of Clarity
+Mardu Banner
+Sultai Banner
+Temur Banner
+Ugin's Nexus
+Witness of the Ages
+Bloodfell Caves
+Bloodstained Mire
+Blossoming Sands
+Dismal Backwater
+Flooded Strand
+Frontier Bivouac
+Jungle Hollow
+Mystic Monastery
+Nomad Outpost
+Opulent Palace
+Polluted Delta
+Rugged Highlands
+Sandsteppe Citadel
+Scoured Barrens
+Swiftwater Cliffs
+Thornwood Falls
+Tomb of the Spirit Dragon
+Tranquil Cove
+Wind-Scarred Crag
+Windswept Heath
+Wooded Foothills
