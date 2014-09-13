@@ -18,6 +18,9 @@ class theDBMgr:
         f = open(filename)
         for line in f:
             x = line.strip().split(',')
+            if len(x) == 3:
+                x[0] = ",".join(x[:2])
+                x[1] = x[2]
             self.c.execute('update cards set img=? where name=?', (x[1], x[0]))
             self.conn.commit()
 
@@ -28,6 +31,10 @@ class theDBMgr:
     def get_card_by_id(self, id):
         name = self.c.execute("select * from cards where id=?", (id,))
         return name.fetchone()
+
+    def count_boosters(self):
+        num = self.c.execute("select count(distinct booster_id) from boosters")
+        return num.fetchone()[0]
 
     def get_max_booster_id(self):
         id = self.c.execute("select max(booster_id) from boosters")
@@ -70,3 +77,5 @@ class theDBMgr:
     def close(self):
         self.conn.close()
 
+db = theDBMgr()
+db.populate_images("images.txt")

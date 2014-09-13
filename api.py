@@ -2,7 +2,7 @@ from flask import Flask
 from db import theDBMgr
 import json
 db = theDBMgr()
-app = Flask(__name__)
+app = Flask(__name__, static_url_path="")
 
 
 # from https://blog.skyred.fi/articles/better-crossdomain-snippet-for-flask.html
@@ -55,6 +55,10 @@ def crossdomain(origin=None, methods=None, headers=None,
     return decorator
 
 
+@app.route("/boosters/count", methods=['GET'])
+@crossdomain(origin='*')
+def get_num_boosters():
+    return json.dumps(db.count_boosters())
 
 @app.route("/boosters", methods=['GET'])
 @crossdomain(origin='*')
@@ -63,12 +67,13 @@ def get_boosters():
     if num is not None:
         return json.dumps(db.get_n_boosters(num))
 
-@app.route("/boosters", methods=['PUT'])
+@app.route("/boosters/add", methods=['GET'])
 @crossdomain(origin='*')
 def insert_booster():
-    cards = json.loads(request.data)['cards']
+    cards = request.args.get('cards')
+    cards =  map(lambda x:int(x), cards.split(','))
     id = db.insert_booster(cards)
-    return json.dumps(db.get_booster(id))
+    return json.dumps(id)
 
 @app.route("/cards")
 @crossdomain(origin='*')
@@ -84,7 +89,6 @@ def get_card_id_by_name(name):
 @crossdomain(origin='*')
 def get_card_by_id(id):
     return json.dumps(db.get_card_by_id(id))
-
 
 if __name__ == "__main__":
     app.run()

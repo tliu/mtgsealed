@@ -9,23 +9,29 @@
         <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     </head>
     <body>
+            <ul class="nav nav-tabs" role="tablist">
+                <li><h4 style="padding-left:10px; padding-right:10px">sealed practice tool</h4></li>
+                <li class="active"><a href="./insert.html">insert</a></li>
+                <li><a href="./gen.html">generate</a></li>
+                <li><a href="./browse.html">browse</a></li>
+            </ul>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4" style="padding: 25px">
                 <div class="input-group">
-                    <input type="text" class="form-control" id="cards" placeholder="card name..."></input>
-                    <span class="input-group-btn">
-                        <button class="btn btn-default" type="button">Add Card</button>
+                    <span class="input-group-addon">
+                        card name:
                     </span>
+                    <input type="text" class="form-control" id="cards" ></input>
+                </div>
+                <div id="booster-count">
                 </div>
             </div>
-            <div class="col-md-8">
-                <div class="panel panel-default" style="width: 200px">
-                    <div class="panel-heading">Retribution of the Ancients</div>
-                    <div class="panel-body">
-                        <img width="100%" src="http://media.wizards.com/images/magic/tcg/products/ktk/8arg43u984398yf/en_w1q972s8hn.png">
+            <div id="cards-section" class="col-md-8" style="padding: 25px">
+                <div class='panel panel-default' >
+                    <div class='panel-body'>
+                        <button id="add-booster" class="btn btn-primary btn-lg">add booster</button>
                     </div>
                 </div>
-
             </div>
         </div>
     </body>
