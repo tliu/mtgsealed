@@ -54,6 +54,10 @@ def crossdomain(origin=None, methods=None, headers=None,
         return update_wrapper(wrapped_function, f)
     return decorator
 
+@app.route("/boosters/<id>", methods=['GET'])
+@crossdomain(origin='*')
+def get_booster(id):
+    return json.dumps(db.get_booster(id))
 
 @app.route("/boosters/count", methods=['GET'])
 @crossdomain(origin='*')
@@ -64,6 +68,7 @@ def get_num_boosters():
 @crossdomain(origin='*')
 def get_boosters():
     num = int(request.args.get('count'))
+    print num
     if num is not None:
         return json.dumps(db.get_n_boosters(num))
 

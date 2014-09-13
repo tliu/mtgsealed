@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>MTG Booster Recorder</title>
+        <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="./bower_components/jquery-ui/jquery-ui.min.js"></script>
+        <script src="./gen.js"></script>
+        <link rel="stylesheet" type="text/css" href="./bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./bower_components/jquery-ui/themes/sunny/jquery-ui.min.css">
+        <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+            <ul class="nav nav-tabs" role="tablist">
+                <li><h4 style="padding-left:10px; padding-right:10px">sealed practice tool</h4></li>
+                <li><a href="./insert.html">insert</a></li>
+                <li class="active"><a href="./gen.html">generate</a></li>
+                <li><a href="./browse.html">browse</a></li>
+            </ul>
+        <div class="row">
+            <div class="col-md-2" style="padding: 25px">
+                <div class="input-group">
+                    <span class="input-group-addon">
+                        boosters:
+                    </span>
+                    <input type="number" class="form-control" id="num-boosters" value="6" ></input>
+                </div>
+                <div id="booster-count">
+                </div>
+            </div>
+                <div class="col-md-10" style="padding: 25px">
+                    <div class='panel panel-default' >
+                        <div class='panel-heading'>
+                            <h3>
+                            sealed pool: <span id="booster-ids">1,2,3,4,5,6</span>
+                            </h3>
+                        </div>
+                        <div id="cards-section" class='panel-body'>
+                            
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </body>
+
+</html>

@@ -2,7 +2,10 @@ import sqlite3
 from collections import defaultdict
 import random
 
-
+class BoosterCount:
+    def __init__(self, id, count):
+        self.id = id
+        self.count = count
 
 class theDBMgr:
     def __init__(self):
@@ -42,7 +45,7 @@ class theDBMgr:
         return max if max != None else -1
 
     def get_booster(self, id):
-        booster = self.c.execute("select c.name from boosters b join cards c on b.cards=c.id where b.booster_id=?", (id,))
+        booster = self.c.execute("select c.id from boosters b join cards c on b.card_id=c.id where b.booster_id=?", (id,))
         return booster.fetchall()
 
     def insert_booster(self, booster):
@@ -54,19 +57,19 @@ class theDBMgr:
 
     def get_n_boosters(self, n):
         total_boosters = self.get_max_booster_id()
-        boosters = range(1, total_boosters + 1)
+        boosters = range(0, total_boosters + 1)
         random.shuffle(boosters)
         if (len(boosters) < n):
             for x in range(n - len(boosters)):
                 boosters.append(random.choice(boosters))
         boosters = boosters[:n]
         out = defaultdict(lambda: 0)
-        for x in range(n):
-            result = self.get_booster(boosters[x])
+        for booster_id in boosters:
+            result = self.get_booster(booster_id)
             for card in result:
                 out[card[0]] = out[card[0]] + 1
-
         return out
+
 
     def get_cards(self):
         return self.c.execute("select * from cards").fetchall()
@@ -78,4 +81,4 @@ class theDBMgr:
         self.conn.close()
 
 db = theDBMgr()
-db.populate_images("images.txt")
+db.get_n_boosters(10)
