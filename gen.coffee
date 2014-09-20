@@ -7,7 +7,14 @@ $ ->
             $.get "http://127.0.0.1:5000/boosters?count=#{count}", (data) ->
                 data = data.replace("{","").replace("}","").replace(/"/g,"").split(", ")
                 for s in data
-                    console.log s.split(":")
+                    p = s.split(":")
+                    id = p[0]
+                    @c = p[1]
+                    console.log "out: " + @c
+                    add_card = (data) =>
+                        console.log "in: " + @c
+                        console.log data
+                    $.get "http://127.0.0.1:5000/cards/id/#{id}", add_card
                 
 
 

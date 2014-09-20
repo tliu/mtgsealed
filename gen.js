@@ -11,12 +11,22 @@
       if (e.which === 13) {
         count = $("#num-boosters").val();
         return $.get("http://127.0.0.1:5000/boosters?count=" + count, function(data) {
-          var s, _i, _len, _results;
+          var add_card, id, p, s, _i, _len, _results;
           data = data.replace("{", "").replace("}", "").replace(/"/g, "").split(", ");
           _results = [];
           for (_i = 0, _len = data.length; _i < _len; _i++) {
             s = data[_i];
-            _results.push(console.log(s.split(":")));
+            p = s.split(":");
+            id = p[0];
+            this.c = p[1];
+            console.log("out: " + this.c);
+            add_card = (function(_this) {
+              return function(data) {
+                console.log("in: " + _this.c);
+                return console.log(data);
+              };
+            })(this);
+            _results.push($.get("http://127.0.0.1:5000/cards/id/" + id, add_card));
           }
           return _results;
         });

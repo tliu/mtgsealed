@@ -68,7 +68,6 @@ def get_num_boosters():
 @crossdomain(origin='*')
 def get_boosters():
     num = int(request.args.get('count'))
-    print num
     if num is not None:
         return json.dumps(db.get_n_boosters(num))
 

@@ -27,6 +27,17 @@ class theDBMgr:
             self.c.execute('update cards set img=? where name=?', (x[1], x[0]))
             self.conn.commit()
 
+    def populate_colors(self, filename):
+        f = open(filename)
+        for line in f:
+            x = line.strip().split(',')
+            if len(x) == 3:
+                x[0] = ",".join(x[:2])
+                x[1] = x[2]
+            self.c.execute('update cards set color=? where name=?', (x[1], x[0]))
+            self.conn.commit()
+
+
     def get_card_id_by_name(self, name):
         name = self.c.execute("select id from cards where name=?", (name,))
         return name.fetchone()[0]
@@ -80,5 +91,3 @@ class theDBMgr:
     def close(self):
         self.conn.close()
 
-db = theDBMgr()
-db.get_n_boosters(10)
