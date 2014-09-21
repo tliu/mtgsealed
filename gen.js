@@ -35,7 +35,7 @@
                     color = "#2aa9f7";
                   }
                   if (data[3] === "B") {
-                    color = "#555555";
+                    color = "#999999";
                   }
                   if (data[3] === "R") {
                     color = "#fc3f3f";
@@ -47,10 +47,10 @@
                     color = "#ffd700";
                   }
                   if (data[3] === "L") {
-                    color = "#4af460";
+                    color = "#f4a460";
                   }
                   if (data[3] === "A") {
-                    color = "#663300";
+                    color = "#964B00";
                   }
                   return $("#card-block-" + data[3]).append("<div class=\"card\" style=\"margin-top: 6px;border: 1px solid #555; border-radius: 5px; padding: 4px; background-color: " + color + ";\"> <span style=\"font-size: 18px; margin-right: 6px\">" + c + "</span> <b>" + data[1] + "</b> </div>");
                 };
