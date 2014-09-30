@@ -1,0 +1,269 @@
+Abomination of Gudul,Common
+Abzan Ascendancy,Rare
+Abzan Banner,Common
+Abzan Battle Priest,Uncommon
+Abzan Charm,Uncommon
+Abzan Falconer,Uncommon
+Abzan Guide,Common
+Act of Treason,Common
+Ainok Bond-Kin,Common
+Ainok Tracker,Common
+Alabaster Kirin,Common
+Alpine Grizzly,Common
+Altar of the Brood,Rare
+Anafenza, the Foremost,Mythic Rare
+Ankle Shanker,Rare
+Arc Lightning,Uncommon
+Archers' Parapet,Common
+Armament Corps,Uncommon
+Arrow Storm,Common
+Ashcloud Phoenix,Mythic Rare
+Avalanche Tusker,Rare
+Awaken the Bear,Common
+Barrage of Boulders,Common
+Bear's Companion,Uncommon
+Become Immense,Uncommon
+Bellowing Saddlebrute,Uncommon
+Bitter Revelation,Common
+Blinding Spray,Uncommon
+Bloodfell Caves,Common
+Bloodfire Expert,Common
+Bloodfire Mentor,Common
+Bloodsoaked Champion,Rare
+Bloodstained Mire,Rare
+Blossoming Sands,Common
+Brave the Sands,Uncommon
+Briber's Purse,Uncommon
+Bring Low,Common
+Burn Away,Uncommon
+Butcher of the Horde,Rare
+Cancel,Common
+Canyon Lurkers,Common
+Chief of the Edge,Uncommon
+Chief of the Scale,Uncommon
+Clever Impersonator,Mythic Rare
+Crackling Doom,Rare
+Cranial Archive,Uncommon
+Crater's Claws,Rare
+Crippling Chill,Common
+Dazzling Ramparts,Uncommon
+Dead Drop,Uncommon
+Death Frenzy,Uncommon
+Debilitating Injury,Common
+Defiant Strike,Common
+Deflecting Palm,Rare
+Despise,Uncommon
+Dig Through Time,Rare
+Disdainful Stroke,Common
+Dismal Backwater,Common
+Disowned Ancestor,Common
+Dragon Grip,Uncommon
+Dragon Throne of Tarkir,Rare
+Dragon's Eye Savants,Uncommon
+Dragon-Style Twins,Rare
+Dragonscale Boon,Common
+Duneblast,Rare
+Dutiful Return,Common
+Efreet Weaponmaster,Common
+Embodiment of Spring,Common
+Empty the Pits,Mythic Rare
+End Hostilities,Rare
+Erase,Common
+Feat of Resistance,Common
+Feed the Clan,Common
+Firehoof Cavalry,Common
+Flooded Strand,Rare
+Flying Crane Technique,Rare
+Force Away,Common
+Forest,Basic Land
+Forest,Basic Land
+Forest,Basic Land
+Forest,Basic Land
+Frontier Bivouac,Uncommon
+Ghostfire Blade,Rare
+Glacial Stalker,Common
+Goblinslide,Uncommon
+Grim Haruspex,Rare
+Gurmag Swiftwing,Uncommon
+Hardened Scales,Rare
+Heart-Piercer Bow,Uncommon
+Heir of the Wilds,Uncommon
+Herald of Anafenza,Rare
+High Sentinels of Arashin,Rare
+Highland Game,Common
+Highspire Mantis,Uncommon
+Hooded Hydra,Mythic Rare
+Hooting Mandrills,Common
+Horde Ambusher,Uncommon
+Hordeling Outburst,Uncommon
+Howl of the Horde,Rare
+Icefeather Aven,Uncommon
+Icy Blast,Rare
+Incremental Growth,Uncommon
+Island,Basic Land
+Island,Basic Land
+Island,Basic Land
+Island,Basic Land
+Ivorytusk Fortress,Rare
+Jeering Instigator,Rare
+Jeskai Ascendancy,Rare
+Jeskai Banner,Common
+Jeskai Charm,Uncommon
+Jeskai Elder,Uncommon
+Jeskai Student,Common
+Jeskai Windscout,Common
+Jungle Hollow,Common
+Kheru Bloodsucker,Uncommon
+Kheru Dreadmaw,Common
+Kheru Lich Lord,Rare
+Kheru Spellsnatcher,Rare
+Kill Shot,Common
+Kin-Tree Invocation,Uncommon
+Kin-Tree Warden,Common
+Krumar Bond-Kin,Common
+Leaping Master,Common
+Lens of Clarity,Common
+Longshot Squad,Common
+Mantis Rider,Rare
+Mardu Ascendancy,Rare
+Mardu Banner,Common
+Mardu Blazebringer,Uncommon
+Mardu Charm,Uncommon
+Mardu Hateblade,Common
+Mardu Heart-Piercer,Uncommon
+Mardu Hordechief,Common
+Mardu Roughrider,Uncommon
+Mardu Skullhunter,Common
+Mardu Warshrieker,Common
+Master of Pearls,Rare
+Master the Way,Uncommon
+Meandering Towershell,Rare
+Mer-Ek Nightblade,Uncommon
+Mindswipe,Rare
+Mistfire Weaver,Uncommon
+Molting Snakeskin,Common
+Monastery Flock,Common
+Monastery Swiftspear,Uncommon
+Mountain,Basic Land
+Mountain,Basic Land
+Mountain,Basic Land
+Mountain,Basic Land
+Murderous Cut,Uncommon
+Mystic Monastery,Uncommon
+Mystic of the Hidden Way,Common
+Narset, Enlightened Master,Mythic Rare
+Naturalize,Common
+Necropolis Fiend,Rare
+Nomad Outpost,Uncommon
+Opulent Palace,Uncommon
+Pearl Lake Ancient,Mythic Rare
+Pine Walker,Uncommon
+Plains,Basic Land
+Plains,Basic Land
+Plains,Basic Land
+Plains,Basic Land
+Polluted Delta,Rare
+Ponyback Brigade,Common
+Quiet Contemplation,Uncommon
+Raiders' Spoils,Uncommon
+Rakshasa Deathdealer,Rare
+Rakshasa Vizier,Rare
+Rakshasa's Secret,Common
+Rattleclaw Mystic,Rare
+Retribution of the Ancients,Rare
+Ride Down,Uncommon
+Rite of the Serpent,Common
+Riverwheel Aerialists,Uncommon
+Roar of Challenge,Uncommon
+Rotting Mastodon,Common
+Rugged Highlands,Common
+Rush of Battle,Common
+Ruthless Ripper,Uncommon
+Sage of the Inward Eye,Rare
+Sage-Eye Harrier,Common
+Sagu Archer,Common
+Sagu Mauler,Rare
+Salt Road Patrol,Common
+Sandsteppe Citadel,Uncommon
+Sarkhan, the Dragonspeaker,Mythic Rare
+Savage Knuckleblade,Rare
+Savage Punch,Common
+Scaldkin,Common
+Scion of Glaciers,Uncommon
+Scoured Barrens,Common
+Scout the Borders,Common
+Secret Plans,Uncommon
+See the Unwritten,Mythic Rare
+Seek the Horizon,Uncommon
+Seeker of the Way,Uncommon
+Set Adrift,Uncommon
+Shambling Attendants,Common
+Shatter,Common
+Sidisi's Pet,Common
+Sidisi, Brood Tyrant,Mythic Rare
+Siege Rhino,Rare
+Siegecraft,Common
+Singing Bell Strike,Common
+Smite the Monstrous,Common
+Smoke Teller,Common
+Snowhorn Rider,Common
+Sorin, Solemn Visitor,Mythic Rare
+Stubborn Denial,Uncommon
+Sultai Ascendancy,Rare
+Sultai Banner,Common
+Sultai Charm,Uncommon
+Sultai Flayer,Uncommon
+Sultai Scavenger,Common
+Sultai Soothsayer,Uncommon
+Summit Prowler,Common
+Surrak Dragonclaw,Mythic Rare
+Suspension Field,Uncommon
+Swamp,Basic Land
+Swamp,Basic Land
+Swamp,Basic Land
+Swamp,Basic Land
+Swarm of Bloodflies,Uncommon
+Swift Kick,Common
+Swiftwater Cliffs,Common
+Taigam's Scheming,Common
+Take Up Arms,Uncommon
+Temur Ascendancy,Rare
+Temur Banner,Common
+Temur Charger,Uncommon
+Temur Charm,Uncommon
+Thornwood Falls,Common
+Thousand Winds,Rare
+Throttle,Common
+Timely Hordemate,Uncommon
+Tomb of the Spirit Dragon,Uncommon
+Tormenting Voice,Common
+Trail of Mystery,Rare
+Tranquil Cove,Common
+Trap Essence,Rare
+Treasure Cruise,Common
+Trumpet Blast,Common
+Tusked Colossodon,Common
+Tuskguard Captain,Uncommon
+Ugin's Nexus,Mythic Rare
+Unyielding Krumar,Common
+Utter End,Rare
+Valley Dasher,Common
+Venerable Lammasu,Uncommon
+Villainous Wealth,Rare
+War Behemoth,Common
+War-Name Aspirant,Uncommon
+Warden of the Eye,Uncommon
+Watcher of the Roost,Uncommon
+Waterwhirl,Uncommon
+Weave Fate,Common
+Wetland Sambar,Common
+Whirlwind Adept,Common
+Wind-Scarred Crag,Common
+Windstorm,Uncommon
+Windswept Heath,Rare
+Wingmate Roc,Mythic Rare
+Winterflame,Uncommon
+Witness of the Ages,Uncommon
+Wooded Foothills,Rare
+Woolly Loxodon,Common
+Zurgo Helmsmasher,Mythic Rare

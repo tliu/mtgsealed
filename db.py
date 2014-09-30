@@ -17,6 +17,14 @@ class theDBMgr:
             self.c.execute('insert into cards values (NULL,"?")', line.strip())
             self.conn.commit()
 
+    def populate_rarity(self, filename):
+        f = open(filename)
+        for line in f:
+            data = line.strip().split(',')
+            self.c.execute('update cards set rarity=? where name=?', (data[1], data[0]))
+            self.conn.commit()
+
+
     def populate_images(self, filename):
         f = open(filename)
         for line in f:
