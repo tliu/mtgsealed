@@ -9,10 +9,12 @@ $ ->
         for div in $('[id^=card-]') 
             ids.push parseInt($(div).attr "cid")
 
-        cards = encodeURIComponent(ids.toString())
+        # where the fuck did this NaN come from?
+        cards = encodeURIComponent(ids.slice(1).toString())
+        console.log cards
         if ids.length > 0
-            $.get "http://127.0.0.1:5000/boosters/add?cards=#{cards}", (data)->
-                window.location.reload(false)
+           $.get "http://127.0.0.1:5000/boosters/add?cards=#{cards}", (data)->
+               window.location.reload(false)
 
     $.get 'http://127.0.0.1:5000/boosters/count', (data) ->
         $("#booster-count").html("<h3><span class='label label-default'>boosters recorded: #{data}</span></h3>")

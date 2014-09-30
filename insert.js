@@ -17,7 +17,8 @@
         div = _ref[_i];
         ids.push(parseInt($(div).attr("cid")));
       }
-      cards = encodeURIComponent(ids.toString());
+      cards = encodeURIComponent(ids.slice(1).toString());
+      console.log(cards);
       if (ids.length > 0) {
         return $.get("http://127.0.0.1:5000/boosters/add?cards=" + cards, function(data) {
           return window.location.reload(false);

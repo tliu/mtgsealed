@@ -12,6 +12,14 @@
         count = $("#num-boosters").val();
         return $.get("http://127.0.0.1:5000/boosters?count=" + count, function(data) {
           var add_card, c, id, p, s, _i, _len, _results;
+          $("#card-block-W .card").remove();
+          $("#card-block-U .card").remove();
+          $("#card-block-B .card").remove();
+          $("#card-block-R .card").remove();
+          $("#card-block-G .card").remove();
+          $("#card-block-A .card").remove();
+          $("#card-block-M .card").remove();
+          $("#card-block-L .card").remove();
           data = data.replace("{", "").replace("}", "").replace(/"/g, "").split(", ");
           _results = [];
           for (_i = 0, _len = data.length; _i < _len; _i++) {

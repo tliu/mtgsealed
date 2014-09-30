@@ -5,6 +5,14 @@ $ ->
         if e.which == 13
             count = $("#num-boosters").val()
             $.get "http://127.0.0.1:5000/boosters?count=#{count}", (data) ->
+                $("#card-block-W .card").remove()
+                $("#card-block-U .card").remove()
+                $("#card-block-B .card").remove()
+                $("#card-block-R .card").remove()
+                $("#card-block-G .card").remove()
+                $("#card-block-A .card").remove()
+                $("#card-block-M .card").remove()
+                $("#card-block-L .card").remove()
                 data = data.replace("{","").replace("}","").replace(/"/g,"").split(", ")
                 for s in data
                     p = s.split(":")
