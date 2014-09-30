@@ -31,6 +31,7 @@ $ ->
                                     name = card[1]
                                     img = card["2"]
                                     $("#cards").val("")
+                                    $("#num-cards").append("<li>#{name}</li>")
                                     div = $("
                                         <div id=card-#{id_counter} style='width: 200px; float: left; margin-right: 6px; display: none;'>
                                         <div class='panel panel-default' style='width: 200px'>

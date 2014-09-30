@@ -56,7 +56,7 @@ class theDBMgr:
         return max if max != None else -1
 
     def get_booster(self, id):
-        booster = self.c.execute("select c.id from boosters b join cards c on b.card_id=c.id where b.booster_id=?", (id,))
+        booster = self.c.execute("select c.id from boosters b join cards c on b.card_id=c.id where b.booster_id=? order by c.name collate nocase", (id,))
         return booster.fetchall()
 
     def insert_booster(self, booster):
